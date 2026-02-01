@@ -1,0 +1,32 @@
+# --- R Studio & Project Files ---
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# --- TrackMan / Raw Data (CRITICAL) ---
+
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+
+# Data Folders
+/data/
+/raw_data/
+
+# --- Images & Plots ---
+
+*.png
+*.pdf
+!mbanyan.webp
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints
+
+# --- Security ---
+.env
